@@ -2,26 +2,21 @@ html {
     overflow-y: scroll;
 }
 
-
-
-
-
-
-
+p {
+  font-size:13px;
+}
 
 #about {
   margin-top:30px;
-  height:100vh;
-}
-
-skill-row{
-  width:80%;
-}
-
-skill-image{
-max-width:200px
 
 }
+
+#skills {
+  margin-top:30px;
+
+}
+
+
 
 /* Remove the navbar's default margin-bottom and rounded borders */
     .navbar {
@@ -245,6 +240,17 @@ video{
   max-width:300px;
 }
 
+.skill-row{
+  width:100%;
+}
+
+.skill-image{
+max-width:150px;
+padding:4px;
+cursor:auto;
+
+}
+
   .featured-blog {
     margin: 0 0px;
     padding: 0px 0;
@@ -303,7 +309,15 @@ video{
   max-width:400px;
   }
 
+  .skill-row{
+    width:100%;
+  }
 
+  .skill-image{
+  max-width:200px;
+  padding:20px;
+
+  }
 
 .featured-blog {
   margin: 0 ;
@@ -372,7 +386,15 @@ h3{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+  .skill-row{
+    width:100%;
+  }
 
+  .skill-image{
+  max-width:300px;
+  padding:20px;
+
+  }
 
 video{
 width:500px;
@@ -624,6 +646,10 @@ h3{
       src: url(../Lato2OFL/Lato-Light.ttf);
   }
 
+.plain-link {
+  text-decoration:none;
+}
+
   .text {
     color: black;
     font-size: 20px;
@@ -635,7 +661,7 @@ h3{
     transform: translate(-50%, -50%);
     text-align: center;
     padding:5px;
-    font-family: MyFirstFont;
+
   }
 
 @media only screen and (max-width: 666px) {
