@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<title>Liam Chapman</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="icon" href="Resources/favicon.png" type="image/png" sizes="16x16">
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/qunit.css" type="text/css" media="screen">
+<link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+ <script type="text/javascript" src="googlemap.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script type="text/javascript" src="js/scroll.js"></script>
+ <script type="text/javascript" src="js/nav.js"></script>
+
+
+
+
+<body>
+
+  <script>
+  document.body.classList.add('fade');
+  </script>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+	   <a href="index.html" class="w3-bar-item w3-button w3-hide-small"><img src="Resources/Logo.png" width="260" height="65px" /></a>
+     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"></a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><img src="Resources/Logo.png" width="260" height="65px" /></a>
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+
+
+  <div class="featured-blog">
+      <div class="featured-blog-main">
+      <div class="blog-flex">
+     <div class="blog-text">
+       <video align="center" class="liam-video"  autoplay muted loop>
+       <source src="liam-video_6.mp4" type="video/mp4">
+       Your browser does not support the video tag.
+       </video></div>
+        <div class="blog-img">
+          <h1>Hi, I'm Liam</h1>
+          <h2>Website and App Developer</h2>
+          <h2>Digital Media Graduate W/</h2>
+          <h3>First Class Honours</h3>
+        </div>
+      </div> <!-- blog-flex-->
+
+
+
+      <div class="top-button-display w3-display-middle" style="white-space:nowrap;top:90%;">
+
+        <a  href="#about">
+          <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">LIAM
+          <span class="w3-hide-small">CHAPMAN</span>
+          </span>
+        </a>
+        <a href="CV/completedCV.pdf" download="Liam-Chapman-CV">
+          <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">CV </span>
+        </a>
+      </div>
+
+
+        </div> <!-- featured-blog-main -->
+    </div>   <!--feature-blog -->
+
+  </div>  <!-- wrapper-->
+
+
+  <!-- <div class="flex-container">
+    <div class="video-container"><video align="center" class="liam-video"  autoplay muted loop>
+    <source src="liam-video_4.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+</div>
+    <aside class="header-text">
+    <h1>Hi, I'm Liam</h1>
+    <h2>Website and App Developer</h2>
+    <h2>Digital Media Graduate W/</h2>
+    <h3>First Class Honours</h3>
+  </aside>
+
+  </div> -->
+
+  <script>
+  document.getElementById('vid').play();
+  </script>
+
+
+
+
+
+
+
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center">
+      <em>I love to code.</em>
+  </p>
+  <p>I am an aspiring website and software developer, graduating at the University of Portsmouth in July 2018. I have a strong passion for problem solving, and this has been prominent throughout several projects that I have completed. My journey into this career path started from my teenage years learning ActionScript in Adobe Flash, and my drive has grown stronger throughout my educational journey. Through studying and having a keen interesting in IT during my GCSE’s, I continued along this path into A Levels, and finally studying Digital Media for 3 years at the University of Portsmouth.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-medium">
+        <p><b><i class="fa fa-user w3-margin-right"></i>Liam Chapman</b></p><br>
+      <img src="img/benji.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+        <p>My favourite projects to work on have been on the development end of websites and mobile/tablet hybrid applications. With each project I take part in, I have been trying to learn as much as possible and push my own boundaries. I have worked on projects for clients, including making a mobile app for The Fat Fox, and some videography with the University of Portsmouth marketing team. Furthermore, I have independently learnt back-end development with MySQL and PHP, and have strong      knowledge in HTML, CSS, JavaScript and have recently began learning Python at a course. I also strive to continue improving my skill set in website design, by keeping up to date on the latest UX design techniques.</p>
+		    <p>I am now looking and ready to begin my career in industry, with an eagerness to get started and put my vast amount of educational experience into practice to become a top software developer. </p>
+	   </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">What I enjoy most</p>
+  <p class="w3-wide"><i class="fa fa-desktop"></i>Web Development</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-mobile"></i>App Development</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <h3> My Skills </h3>
+  <p> A little bit of what I can offer... </p>
+
+  <div class="w3-row skill-row">
+  	<img src="img/skills/html.png"  onclick="onClick(this)" class="skill-image w3-hover-opacity" alt="I've completed many projects including Websites, Hybrid Apps and Web-Apps using HTML5.">
+  	<img src="img/skills/css.png"  onclick="onClick(this)" class="skill-image w3-hover-opacity" alt="I've used CSS to style the apperance of all completed websites and apps.">
+  	<img src="img/skills/php.png"  onclick="onClick(this)" class="skill-image w3-hover-opacity" alt="I've spent a long time learning PHP independantly to improve my coding ability, and have used it co create back-end databases.">
+  </div>
+  <div class="w3-row">
+  	<img src="img/skills/javascript.png" style="width:10%; margin:20px;" onclick="onClick(this)" class="w3-hover-opacity" alt="I've completed many projects including Websites, Hybrid Apps and Web-Apps using HTML5.">
+  	<img src="img/skills/mysql.png" style="width:10%;margin:20px;" onclick="onClick(this)" class="w3-hover-opacity" alt="I've used CSS to style the apperance of all completed websites and apps.">
+  	<img src="img/skills/illustrator.png" style="width:10%;margin:20px;" onclick="onClick(this)" class="w3-hover-opacity" alt="I've spent a long time learning PHP independantly to improve my coding ability, and have used it co create back-end databases.">
+  </div>
+  <div class="w3-row">
+  	<img src="img/skills/photoshop.png" style="width:10%; margin:20px;" onclick="onClick(this)" class="w3-hover-opacity" alt="I've completed many projects including Websites, Hybrid Apps and Web-Apps using HTML5.">
+  	<img src="img/skills/aftereffects.png" style="width:10%;margin:20px;" onclick="onClick(this)" class="w3-hover-opacity" alt="I've used CSS to style the apperance of all completed websites and apps.">
+  	<img src="img/skills/phonegap.png" style="width:10%;margin:20px;" onclick="onClick(this)" class="w3-hover-opacity" alt="I've spent a long time learning PHP independantly to improve my coding ability, and have used it co create back-end databases.">
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">MY WORK</h3>
+  <p class="w3-center">
+    <em>Here are some of my latest projects that have been completed.<br> Click on the images to read more.</em>
+  </p>
+
+  <br>
+
+  <div class="container1">
+    <div class="container col-sm-4">
+        <a href="fatface.html">
+            <img src="FatFace.png" alt="Avatar" class="image" />
+            <div class="overlay">
+              <div class="icon"><img width="25%" src="website.png" /></div><br>
+              <div class="text">Digital Content Producer</div>
+            </div>
+          </a>
+      </div>
+
+
+    <div class="container col-sm-4">
+      <a href="2veggie.html">
+        <img src="2veggie.jpg" alt="Avatar" class="image" />
+          <div class="overlay">
+            <div class="icon"><img width="25%" src="phone.png" /></div><br>
+            <div class="text">Web-based mobile app - HTML, CSS, JS, PHP, MySQL</div>
+          </div>
+      </a>
+    </div>
+
+    <div class="container col-sm-4">
+      <a href="fat-fox.html">
+        <img src="the-fat-fox.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+              <div class="icon"><img width="25%" src="phone.png" /></div><br>
+              <div class="text">Mobile App - HTML, CSS, JavaScript, PhoneGap</div>
+          </div>
+      </a>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="container1">
+
+    <div class="container col-sm-4">
+      <a href="golf-hacks.html">
+      <img src="golfhacks.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="icon"><img width="25%" src="website.png" /></div><br>
+        <div class="text">Database driven streaming website - HTML, CSS, PHP, MySQL</div>
+      </div>
+    </a>
+    </div>
+
+    <div class="container col-sm-4">
+      <a href="snakepit-music.html">
+      <img src="resources/home/streetlight.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="icon"><img width="25%" src="website.png" /></div><br>
+        <div class="text">Database driven streaming website - HTML, CSS, PHP, MySQL</div>
+      </div>
+    </a>
+    </div>
+
+    <div class="container col-sm-4">
+      <a href="snakepit-music.html">
+      <img src="resources/home/snakepit-music.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="icon"><img width="25%" src="phone.png" /></div><br>
+        <div class="text">Mobile App - HTML, CSS, JavaScript, PhoneGap</div>
+      </div>
+    </a>
+    </div>
+
+
+  </div>
+
+
+
+  <div class="container1">
+    <div class="container col-sm-4">
+      <a href="genghis-infographic.html">
+      <img src="resources/home/genghis.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="icon"><img width="25%" src="videoicon.png" /></div><br>
+        <div class="text">Educational Motion Graphic using Adobe AfterEffects</div>
+      </div>
+    </a>
+    </div>
+
+    <div class="container col-sm-4">
+      <a href="uop-video.html">
+      <img src="resources/home/inter.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="icon"><img width="25%" src="videoicon.png" /></div><br>
+        <div class="text">Database driven streaming website - HTML, CSS, PHP, MySQL</div>
+      </div>
+    </a>
+    </div>
+
+    <div class="container col-sm-4">
+      <a href="genghis-video.html">
+      <img src="resources/home/genghis-motion.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="icon"><img width="25%" src="videoicon.png" /></div><br>
+        <div class="text">Educational Motion Graphic using Adobe AfterEffects</div>
+      </div>
+    </a>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">Contact Me!</h3>
+  <p class="w3-center"><em>I'd love to hear from you!</em></p>
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container"></div>
+    <div class="col-sm-6 m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> London Based<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 07528656898<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: liam.chapman@myport.ac.uk<br>
+      </div>
+      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a message:</p>
+      <div class="col-sm-6 w3-margin-bottom">
+        <i class="fa fa-linkedin fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <a style="text-decoration: none"  href="https://www.linkedin.com/in/liamchapmandm/">Liam Chapman</a><br>
+        <i class="fa fa-facebook fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <a  style="text-decoration: none" href="https://www.facebook.com/liamchapmanDM/">@liamchapmandm</a><br>
+        <i class="fa fa-twitter fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <a style="text-decoration: none" href="https://twitter.com/liamchapmandm">@liamchapmandm</a><br>
+		    <i class="fa fa-instagram fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <a style="text-decoration: none" href="https://www.instagram.com/liamchapmandm/">@liamchapmandm</a><br>
+	  </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a  style="text-decoration: none" href="https://www.facebook.com/liamchapmanDM/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a style="text-decoration: none" href="https://www.instagram.com/liamchapmandm/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a style="text-decoration: none" href="https://twitter.com/liamchapmandm"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a style="text-decoration: none"  href="https://www.linkedin.com/in/liamchapmandm/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+  <p> Website Development by Liam Chapman. Photography by Thomas Byrne. </p>
+</footer>
+
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(e) {
+    document.body.classList.remove('fade');
+  });
+</script>
+
+
+</body>
+</html>
