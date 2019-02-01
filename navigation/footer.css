@@ -24,7 +24,7 @@ footer{
   display:block;
   padding:0px;
 color:#fff;
-background-color: #000;
+background-color: #4c4c4c;
 width:100%;
 text-align:center;
 }
@@ -33,6 +33,26 @@ text-align:center;
 
 background-color: #022;
 
+}
+
+
+.padding-sides {
+padding-left: 10px;
+padding-right:10px;
+}
+
+.show-small {
+  display:none;
+}
+
+@media only screen and (max-width: 600px) {
+.show-small {
+  display:block;
+}
+
+.hide-small {
+  display:none;
+}
 }
 
 
