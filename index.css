@@ -1,6 +1,9 @@
 html {
+  height: 100%;
     overflow-y: scroll;
 }
+
+html,body,#page, header { height:100%;}
 
 p {
   font-size:13px;
@@ -16,7 +19,9 @@ p {
 
 }
 
-
+.w3-opacity-min {
+    opacity: 0.9;
+}
 
 /* Remove the navbar's default margin-bottom and rounded borders */
     .navbar {
@@ -35,10 +40,7 @@ font-family: Myriad Pro;
 background-color:white;
     }
 
-	body {
-		font-family: 'Krub', sans-serif;
-		font-size:12px;
-	}
+
 
 
 
@@ -159,6 +161,8 @@ hr {
       line-height: 1.8;
   }
 
+
+
   h1{
     font-size:80px;
     line-height: 90px;
@@ -172,6 +176,8 @@ hr {
   body {
     opacity: 1;
     transition: 0.9s opacity;
+    font-family: 'Krub', sans-serif;
+    font-size:12px;
   }
 
   body.fade {
@@ -641,10 +647,7 @@ h3{
     opacity: 1;
   }
 
-  @font-face {
-      font-family: MyFirstFont;
-      src: url(../Lato2OFL/Lato-Light.ttf);
-  }
+
 
 .plain-link {
   text-decoration:none;
@@ -687,4 +690,22 @@ h3{
     display: flex;
       flex-wrap: wrap;
 
+  }
+
+  .margin-item {
+    margin-top:50px;
+
+  }
+
+  .margin-bottom {
+    margin-bottom:50px;
+
+  }
+
+
+  .flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between
   }
