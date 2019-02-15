@@ -1,0 +1,95 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Krub', sans-serif;
+}
+.wrapper {
+  min-height: 1000px;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
+
+footer{
+  font-size:13px;
+}
+
+
+.bg-black {
+  display:block;
+  padding:0px;
+color:#fff;
+background-color: #000;
+width:100%;
+text-align:center;
+}
+
+.bg-black:hover {
+
+background-color: #022;
+
+}
+
+
+.padding-footer {
+  padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.to-the-top {
+  border-radius:2px;
+  border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #000;
+    background-color: #f1f1f1;
+}
+
+.to-the-top:hover {
+    background-color: #DCDCDC;
+}
+
+
+.section-margin {
+  margin-top: 18px;
+      margin-bottom: 18px;
+}
+
+
+.fab{
+  font-size:24px;
+}
+
+
+.fab {
+  color:#fff;
+}
+
+.fa-facebook-square:hover {
+  color:#3b5998;
+}
+
+.fa-instagram:hover {
+  color:#c32aa3;
+}
+
+.fa-twitter-square:hover {
+  color:#1da1f2;
+}
+
+.fa-linkedin:hover {
+  color:#007bb5;
+}

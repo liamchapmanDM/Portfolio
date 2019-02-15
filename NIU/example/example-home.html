@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
+      <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+      <link rel="stylesheet" type="text/css" href="example.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <script type="text/javascript" src="example.js"></script>
+  </head>
+
+
+  <nav id="header" class="header">
+      <a class="hvr-shrink" href="index.html" class="">
+        <picture>
+          <source media="(min-width: 768px)" width="260px" height="65" srcset="../Resources/Logo.png">
+          <source media="(max-width: 767px)" width="50" srcset="../logo-mobile.png">
+          <img src="./Resources/Logo.png" width="260px" height="65"  alt="Liam Chapman Logo" style="width:auto;">
+        </picture>
+      </a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+          <span class="navicon"></span>
+      </label>
+      <ul class="menu">
+          <li><a class="hvr-underline-from-left" href="#work">ABOUT</a></li>
+          <li><a class="hvr-underline-from-left" href="#about">PORTFOLIO</a></li>
+          <li><a class="hvr-underline-from-left" href="#careers">CONTACT</a></li>
+      </ul>
+  </nav>
+
+
+  <body>
+    <script>
+    document.body.classList.add('fade');
+    </script>
+
+
+
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 full-width" id="home">
+
+<div class="wrapper ">
+            <div class="featured-blog">
+                <div class="featured-blog-main">
+                <div class="blog-flex">
+               <div class="blog-text">
+                 <video align="center" class="liam-video"  autoplay muted loop>
+                 <source src="../liam-video_1.mp4" type="video/mp4">
+                 Your browser does not support the video tag.
+                 </video></div>
+                  <div class="blog-img">
+                    <h1>Hi, I'm Liam.</h1>
+                    <h2><strong>Front-end developer and designer</strong></h2>
+                    <p>Digital media graduate w/ <strong>first class honours</strong></p>
+                    <p></p>
+                  </div>
+                </div> <br><!-- blog-flex-->
+
+
+
+                <div class="main-button"><!--
+                --><a class="button-standard hvr-grow hvr-icon-hang" href="#about"><i class="fas fa-arrow-alt-down hvr-icon"></i><span>Liam Chapman</a><!--
+                --><a class="button-standard hvr-grow" href="CV/completedCV.pdf" download="Liam-Chapman-CV">CV</span></a><!--
+                --></div>
+
+
+
+
+                  </div> <!-- featured-blog-main -->
+              </div>   <!--feature-blog -->
+
+            </div>
+            <!-- <img src="../banner-bottom.png" class="banner-bottom" style="width:100%"  alt="An image of myself working on a macbook Pro." > -->
+          </div>
+
+
+
+            <!-- Container (About Section) -->
+<div class="bg-2">
+            <div class="wrapper" id="about">
+            <div class="section-top center-content" >
+              <h3 class="">ABOUT ME</h3>
+              <p class="">
+                  <em>I love to code.</em>
+              </p>
+              <div class="text-image-split">
+                  <div class="left padding-20">
+                      <p>I am an aspiring website and software developer, graduating at the University of Portsmouth in July 2018. I have a strong passion for problem solving, and this has been prominent throughout several projects that I have completed. My journey into this career path started from my teenage years learning ActionScript in Adobe Flash, and my drive has grown stronger throughout my educational journey. Through studying and having a keen interesting in IT during my GCSE’s, I continued along this path into A Levels, and finally studying Digital Media for 3 years at the University of Portsmouth.</p>
+                <!-- Hide this text on small devices -->
+                      <div class="hide-small medium-full">
+                          <p>My favourite projects to work on have been on the development end of websites and mobile/tablet hybrid applications. With each project I take part in, I have been trying to learn as much as possible and push my own boundaries. I have worked on projects for clients, including making a mobile app for The Fat Fox, and some videography with the University of Portsmouth marketing team. Furthermore, I have independently learnt back-end development with MySQL and PHP, and have strong      knowledge in HTML, CSS, JavaScript and have recently began learning Python at a course. I also strive to continue improving my skill set in website design, by keeping up to date on the latest UX design techniques.</p>
+                          <!-- <p>I am now looking and ready to begin my career in industry, with an eagerness to get started and put my vast amount of educational experience into practice to become a top software developer. </p> -->
+                      </div>
+                   </div>
+
+                  <div class="right">
+                      <p style="margin-bottom:0px;" class=" no-margin;"><b><i class="fa fa-user"></i> Liam Chapman</b></p><br>
+                      <picture>
+                        <source media="(min-width: 768px)"   srcset="../img/benji.jpg">
+                        <source media="(max-width: 767px)"  srcset="../img/benji.jpg">
+                        <img src="../img/benji.png" class="about-img "   alt="An image of myself working on a macbook Pro." >
+                      </picture>
+                  </div>
+
+
+
+                </div>
+
+                <div class="about-button" >
+                  <a class="button-standard hvr-grow hvr-icon-hang" href="#skills"><i class="fa hvr-icon fa-arrow-down"></i>
+                    <span>My skills</span>
+                  </a>
+                </div>
+              </div>
+              <!-- <p class="">What I enjoy most</p>
+              <p class=""><i class=""></i>Web Development</p>
+              <div class="">
+                <div class="" style="width:90%">90%</div>
+              </div>
+              <p class=""><i class=""></i>App Development</p>
+              <div class="">
+                <div class="" style="width:85%">85%</div>
+              </div>
+              <p class=""><i class=""></i>Web Design</p>
+              <div class="">
+                <div class="" style="width:75%">75%</div>
+              </div> -->
+            </div>
+</div>
+
+<div class="wrapper section-top2 " id="skills">
+  <h3> MY SKILLS </h3>
+  <p> A little bit of what I can offer... </p>
+
+
+  <div class="grid col-container">
+    <div class="column1 col">
+      <h4><i class="fas fa-pencil-alt header-icon"></i><br>Design</h4>
+      <p>Designing simple and clean websites fit for professional use.</p>
+      <p>
+          <strong>What i enjoy most</strong>
+          <br>
+          Websites, Mobile App's, UX, UI
+      </p>
+      <p>
+          <strong>Design Tools</strong>
+          <br>
+
+          Adobe Photoshop<br>
+          Adobe Illustrator<br>
+          Figma<br>
+          Invision<br>
+      </p>
+    </div>
+    <div class="column2 col">
+      <h4><i class="fas fa-code header-icon"></i><br><strong>Development</strong></h4>
+      <p>Front-end development, by coding from scratch and making fresh designs come to life.</p>
+      <p>
+          <strong>My Tools</strong>
+          <br>
+          Atom, Bootstrap, GitHub, Notepad++
+      </p>
+      <p>
+          <strong>Languages I speak</strong>
+          <br>
+          CSS<br>
+          HTML<br>
+          JavaScript<br>
+          MySQL<br>
+          PHP<br>
+          SASS<br>
+      </p>
+    </div>
+    <div class="column3 col">
+      <h4><i class="fas fa-camera-retro header-icon"></i><br>Multimedia</h4>
+      <p>Experience in creating various multimedia elements for web.</p>
+      <p>
+          <strong>My multimedia skills</strong>
+          <br>
+          Video's, images, GIF's
+      </p>
+      <p>
+          <strong>Multimedia tools</strong>
+          <br>
+          Adobe AfterEffects<br>
+          Adobe Photoshop<br>
+          Adobe Illustrator<br>
+          Adobe Animate<br>
+          Avid<br>
+
+      </p>
+    </div>
+  </div>
+
+  <div class="about-button" >
+    <a class="button-standard hvr-grow hvr-icon-hang" href="#portfolio"><i class="fa fa-arrow-down hvr-icon"></i>
+      <span>My work</span>
+    </a>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 parallax-container">
+  <div class="parallax-middle">
+    <span class="parallax-title">PORTFOLIO</span>
+  </div>
+</div>
+
+
+
+<!-- Container (Portfolio Section) -->
+<div class="wrapper3" id="portfolio">
+  <h3 class="">MY WORK</h3>
+  <p class="">
+    <em>Here are some of my latest projects that have been completed.<br> Click on the images to read more.</em>
+  </p>
+
+  <br>
+
+  <div class="container1">
+    <div class="container6 ">
+        <a href="fatface.html">
+            <img src="../images/portfolio-logos/fatface.jpg" alt="FatFace Clothing Website Logo" class="image" />
+            <div class="overlay">
+              <div class="icon"><img width="40%" src="../website.png" alt="Website Icon" /></div><br>
+              <div class="text">Creating content for FatFace's Website</div>
+            </div>
+          </a>
+      </div>
+
+
+    <div class="container6 ">
+      <a href="2veggie.html">
+        <img src="../images/portfolio-logos/2veggie.jpg" alt="2Veggie Mobile App Logo" class="image" />
+          <div class="overlay">
+            <div class="icon"><img width="40%" src="../phone.png" alt="Mobile App Icon" /></div><br>
+            <div class="text">Web-based mobile app - HTML, CSS, JS, PHP, MySQL</div>
+          </div>
+      </a>
+    </div>
+
+    <div class="container6 ">
+      <a href="fat-fox.html">
+        <img src="../images/portfolio-logos/fat-fox.jpg" alt="The Fat Fox Mobile App Logo" class="image">
+          <div class="overlay">
+              <div class="icon"><img width="40%" src="../phone.png" alt="Mobile App Icon" /></div><br>
+              <div class="text">Mobile App - HTML, CSS, JavaScript, PhoneGap</div>
+          </div>
+      </a>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="container1">
+
+    <div class="container6 ">
+      <a href="golf-hacks.html">
+      <img src="../images/portfolio-logos/golf-hacks.jpg" alt="Golf Hacks Website Logo" class="image">
+      <div class="overlay">
+        <div class="icon"><img width="40%" src="../website.png" alt="Website Icon" /></div><br>
+        <div class="text">Database driven streaming website - HTML, CSS, PHP, MySQL</div>
+      </div>
+    </a>
+    </div>
+
+    <div class="container6 ">
+      <a href="snakepit-music.html">
+      <img src="../images/portfolio-logos/streetlight.jpg" alt="Streetlight Serenade Website Logo" class="image">
+      <div class="overlay">
+        <div class="icon"><img width="40%" src="../website.png" alt="Website Icon" /></div><br>
+        <div class="text">Database driven streaming website - HTML, CSS, PHP, MySQL</div>
+      </div>
+    </a>
+    </div>
+
+    <div class="container6 ">
+      <a href="snakepit-music.html">
+      <img src="../images/portfolio-logos/snakepit.jpg" alt="Snakepit Music Mobile Application Logo" class="image">
+      <div class="overlay">
+        <div class="icon"><img width="40%" src="../phone.png" alt="Mobile App Icon" /></div><br>
+        <div class="text">Mobile App - HTML, CSS, JavaScript, PhoneGap</div>
+      </div>
+    </a>
+    </div>
+
+
+  </div>
+
+
+
+  <div class="container1">
+    <div class="container6 ">
+      <a href="genghis-infographic.html">
+      <img src="../images/portfolio-logos/genghis-info.jpg" alt="Genghis Khan Infographic" class="image">
+      <div class="overlay">
+        <div class="icon"><img width="40%" src="../videoicon.png" alt="Multimedia Icon" /></div><br>
+        <div class="text">Educational Motion Graphic using Adobe AfterEffects</div>
+      </div>
+    </a>
+    </div>
+
+    <div class="container6 ">
+      <a href="uop-video.html">
+      <img src="../images/portfolio-logos/uop.jpg" alt="University of Portsmouth Video Editing" class="image">
+      <div class="overlay">
+        <div class="icon"><img width="40%" src="../videoicon.png" alt="Multimedia Icon"/></div><br>
+        <div class="text">Video Editing for the University of Portsmouth marketing team</div>
+      </div>
+    </a>
+    </div>
+
+    <div class="container6 ">
+      <a href="genghis-video.html">
+      <img src="../images/portfolio-logos/genghis-video.jpg" alt="Genghis Khan Motion Graphic" class="image">
+      <div class="overlay">
+        <div class="icon"><img width="40%" src="../videoicon.png" alt="Multimedia Icon"/></div><br>
+        <div class="text">Educational Motion Graphic using Adobe AfterEffects</div>
+      </div>
+    </a>
+    </div>
+
+
+  </div>
+
+
+  <div class="about-button" >
+    <a class="button-standard hvr-grow hvr-icon-hang" href="#contact"><i class="fa fa-arrow-down hvr-icon"></i>
+      <span>Contact</span>
+    </a>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 parallax-container">
+  <div class="parallax-middle">
+    <span class="parallax-title">CONTACT</span>
+  </div>
+</div>
+
+
+
+
+
+<!-- Container (Contact Section) -->
+<div class="wrapper-contact" id="contact">
+  <div class="text-center">
+  <h3 class="">CONTACT ME!</h3>
+  <p class=""><em>I'd love to hear from you!</em></p>
+</div>
+<div class="flex-grid">
+      <div class="float-left">
+        <span class=""><i class="fas fa-fw fab-dark fa-map-marker-alt margin-right"></i><span class="plain-link"> South England</span></span><br>
+        <span class=""><i class="fas fa-fw fab-dark fa-mobile-alt margin-right"></i><a class="plain-link" href="tel:+447528656898"> Phone: 07528656898</a></span><br>
+        <span class=""><i class="far fa-fw fab-dark fa-envelope margin-right"></i><a class="plain-link" href="mailto:liam.chapman@myport.ac.uk"> Email: liam.chapman@myport.ac.uk</a></span><br><br class="show-small"/>
+      </div>
+
+      <div class="float-right">
+        <!-- <p style="margin:0px;">Swing by for a cup of <i class="fas fa-coffee"></i>, or leave me a message:</p> -->
+        <span class="linked-in-color"><a class="plain-link linked-a"   href="https://www.linkedin.com/in/liamchapmandm/">Liam Chapman</a><i class="fab fa-fw fab-dark fa-linkedin"></i></span><br>
+        <span class="facebook-in-color"><a  class="plain-link" href="https://www.facebook.com/liamchapmanDM/">@liamchapmandm</a><i class='fab fa-fw fab-dark fa-facebook-square'></i></span><br>
+        <span class="twitter-in-color"><a class="plain-link" href="https://twitter.com/liamchapmandm">@liamchapmandm</a><i class="fab fa-fw fab-dark fa-twitter-square"></i></span><br>
+		    <span class="instagram-in-color"><a class="plain-link" href="https://www.instagram.com/liamchapmandm/">@liamchapmandm</a><i class="fab fa-fw fab-dark fa-instagram"></i></span><br>
+	  </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+        <div class="push"></div>
+        <script>
+          document.addEventListener("DOMContentLoaded", function(e) {
+            document.body.classList.remove('fade');
+          });
+        </script>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-black padding-footer">
+      <button onclick="topFunction()" id="myBtn" class="to-the-top hvr-icon-hang"><i class="fa fa-arrow-up hvr-icon"></i> To the top</button>
+      <div  class="section-margin">
+          <a  href="https://www.facebook.com/liamchapmanDM/">   <i class='fab fab-white fa-facebook-square'>  </i></a>
+          <a  href="https://www.instagram.com/liamchapmandm/">  <i class="fab fab-white fa-instagram">        </i></a>
+          <a  href="https://twitter.com/liamchapmandm">         <i class="fab fab-white fa-twitter-square">   </i></a>
+          <a  href="https://www.linkedin.com/in/liamchapmandm/"><i class="fab fab-white fa-linkedin">         </i></a>
+      </div>
+      <p class="padding-sides">
+          Website Development by Liam Chapman. <br class="show-small"> Photography by Thomas Byrne.
+      </p>
+    </footer>
+
+  </body>
+
+
+
+
+</html>
