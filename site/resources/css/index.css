@@ -720,11 +720,15 @@ h3{
 		clear: none;
 		float: right;
 		max-height: none;
+		font-size:14px;
 	}
 	.header .menu-icon {
 		display: none;
 	}
-	video{
+	.show-medium {
+		display:block;
+	}
+	.blog-text video{
 		width:400px;
 		margin-top:70px;
 		max-width:400px;
@@ -762,9 +766,12 @@ h3{
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-	video{
+	.blog-text video{
 		width:400px;
 		margin-top:70px;
+	}
+	.hide-large{
+		visibility: hidden;
 	}
 	.section-top {
 		margin-top:80px;
