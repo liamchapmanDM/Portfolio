@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+
+    <style>
+body{
+  background-image: url("resources/images/rebuilding/rebuilding-bg.jpg");
+  background-size: cover;
+}
+
+.container {
+height: 100vh;
+position: relative;
+}
+
+.center {
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+</style>
+  </head>
+
+
+
+
+
+  <body>
+    <script>
+    document.body.classList.add('fade');
+    </script>
+
+
+
+    <div class="container">
+      <nav id="header" class="header">
+          <a class="hvr-shrink" href="index.html" >
+            <picture>
+              <source media="(min-width: 768px)" width="260px" height="65" srcset="resources/images/logo/Logo.png">
+              <source media="(max-width: 767px)" width="50" srcset="resources/images/logo/logo-mobile.png">
+              <img src="resources/images/logo/Logo.png" width="260px" height="65"  alt="Liam Chapman Logo" style="width:auto;">
+            </picture>
+          </a>
+      </nav>
+  <div class="center">
+    <h1>Hey, I'm working hard to rebuild the site at the moment!</h1>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+        <div class="push"></div>
+        <script>
+          document.addEventListener("DOMContentLoaded", function(e) {
+            document.body.classList.remove('fade');
+          });
+        </script>
+    </div>
+
+
+
+
+
+  </body>
+
+
+
+
+</html>
