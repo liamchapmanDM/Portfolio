@@ -2,12 +2,45 @@
 <html>
 
   <head>
-
-
+<link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
     <style>
+
+    
+    body, html {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+
 body{
   background-image: url("resources/images/rebuilding/rebuilding-bg.jpg");
   background-size: cover;
+}
+
+i{
+  color: #404040;
+}
+
+i:hover {
+  color: #0077B5;
+}
+
+h1{
+  font-family: 'Krub', sans-serif;
+}
+
+p{
+  font-family: 'Noto Serif SC', serif;
+}
+
+a{
+  text-decoration:none;
+}
+
+.blue {
+  color: #0077B5;
 }
 
 .container {
@@ -22,6 +55,25 @@ top: 50%;
 left: 50%;
 -ms-transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);
+text-align: center;
+color: #404040;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("resources/images/rebuilding/bg-mobile.jpg");
+    background-size: cover;
+  }
+
+  .center{
+    background-color: rgba(0, 0, 0, .4);
+    color: #FFF;
+    border-radius: 3px;
+  }
+
+  i{
+    color: #0077B5;
+  }
 }
 </style>
   </head>
@@ -49,6 +101,7 @@ transform: translate(-50%, -50%);
       </nav>
   <div class="center">
     <h1>Hey, I'm working hard to rebuild the site at the moment!</h1>
+    <p>Check back soon for the new updated site! in the meantime you can find and contact me on <a class="blue" href="https://www.linkedin.com/in/liamchapmandm/">LinkedIn <i class="fab fa-linkedin"></i></a></p>
   </div>
 </div>
 
