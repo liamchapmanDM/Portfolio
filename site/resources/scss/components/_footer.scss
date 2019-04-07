@@ -1,0 +1,87 @@
+.footer,.push {
+	height: 50px;
+}
+
+footer{
+	font-size:13px;
+}
+
+.padding-footer {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.to-the-top {
+	margin: auto;
+	border-radius:2px;
+	border: none;
+	font-size:13px;
+	display: inline-block;
+	padding: 8px 16px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	color: inherit;
+	background-color: inherit;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	color: #000;
+	background-color: #f1f1f1;
+}
+
+.to-the-top:hover {
+	background-color: #DCDCDC;
+}
+
+.bg-black {
+	display:block;
+	color:#fff;
+	background-color: #4c4c4c;
+	width:100%;
+	text-align:center;
+}
+
+.bg-black:hover {
+	background-color: #022;
+}
+
+.padding-sides {
+	padding-left: 10px;
+	padding-right:10px;
+}
+
+.section-margin {
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
+
+@media only screen and (min-width: 992px) {
+.flex-grid {
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+.float-right {
+  margin-left: auto;
+  order: 2;
+  text-align:left;
+  top:0;
+}
+.float-left {
+  margin-right: auto;
+  order: 2;
+  text-align:left;
+  top:0;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+	.right {
+		padding-left:30px;
+	}
+}

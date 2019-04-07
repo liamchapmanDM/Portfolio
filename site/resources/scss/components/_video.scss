@@ -1,0 +1,259 @@
+/* footer */
+.wrapper {
+	/* min-height: 1000px;
+	*/
+	/* Equal to height of footer */
+	/* But also accounting for potential margin-bottom of last child */
+	margin-bottom: 0px;
+	margin-right:10%;
+	margin-left:10%;
+	margin-top:70px;
+	text-align: center;
+	padding-bottom:30px;
+}
+
+/* home content */
+.bgimg-1 video {
+	max-width:300px;
+}
+
+/* index */
+
+.featured-blog {
+	margin: 0 0px;
+	padding: 0px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width:100%;
+}
+.blog-flex {
+	flex-direction: row;
+	width: 100%;
+}
+
+.blog-img {
+	margin-top:15px;
+	width: 100%;
+	max-width: 375px;
+	text-align: center;
+}
+.featured-blog {
+	margin: 0 0px;
+	padding: 0px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width:100%;
+}
+
+.blog-text {
+	width: 100%;
+	margin: 0 0px;
+	margin-left:0px;
+	max-width: 400px;
+  padding:10px;
+}
+
+
+.blog-img {
+	margin-top:15px;
+	width: 100%;
+	max-width: 375px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .genghis-vid video{
+    margin:0px;
+    /* width: 80%; */
+  margin-top: 0px;
+  /* margin-left: 30px; */
+  width:200px;
+  }
+
+	.genghis-vid {
+    margin:0px;
+  margin-top: 0px;
+  width:200px;
+  }
+}
+
+@media (min-width: 48em) {
+
+  .blog-text video{
+    width:400px;
+    margin-top:70px;
+    max-width:400px;
+  }
+  .featured-blog {
+    margin: 0 ;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .blog-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+  }
+  .featured-blog p {
+  }
+  .blog-text {
+    margin: 0 30px;
+    width: 100%;
+  }
+  .blog-img {
+    width: 100%;
+    max-width:960px;
+    align-items: center;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .blog-text video{
+    width:400px;
+    margin-top:70px;
+  }
+
+  .featured-blog {
+		margin: 0 ;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+  .blog-flex {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		align-items: center;
+		width:100%;
+	}
+	.featured-blog p {
+	}
+	.blog-text {
+		margin: 0 0px;
+		width: 100%;
+	}
+	.blog-img {
+		width: 100%;
+		max-width:996px;
+		align-items: center;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+  .genghis-vid video{
+    margin:0px;
+    /* width: 80%; */
+  margin-top: 0px;
+  /* margin-left: 30px; */
+  width:600px;
+  }
+
+  .genghis-vid {
+    margin:0px;
+    /* width: 80%; */
+  margin-top: 0px;
+  /* margin-left: 30px; */
+  width:600px;
+  }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.bgimg-1 video{
+		/* width:80%;
+		*/
+		margin-top:0px;
+		margin-left:30px;
+		height:80vh;
+	}
+
+  .featured-blog {
+		margin: 0 ;
+		padding: 0;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+	.featured-blog-main {
+		margin: 0 ;
+		padding: 0;
+		align-items: center;
+		justify-content: center;
+	}
+	.blog-flex {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width:100%;
+	}
+	.blog-text {
+		margin: 0 30px;
+		width: 100%;
+		max-width:600px;
+		margin-left:0px;
+		padding:10px;
+	}
+	.blog-img {
+		padding-left:30px;
+		width: 100%;
+		align-items: left;
+		text-align: left;
+	}
+	.blog-img p{
+		font-size:18px;
+		margin-left:10px;
+		width: 100%;
+		text-align: left;
+	}
+
+
+	.genghis-vid video{
+    margin:0px;
+    /* width: 80%; */
+  margin-top: 0px;
+  /* margin-left: 30px; */
+  width:600px;
+  }
+}
+
+
+
+@media only screen and (min-width: 1440px) {
+		  .genghis-vid video{
+		    margin:0px;
+				margin-top: 0px;
+				width:600px;
+		  }
+}
+
+
+
+
+@media only screen and (min-width: 1800px) {
+	.bgimg-1 video{
+		margin-top:0px;
+		margin-left:30px;
+		height:70vh;
+		width:500px;
+		max-width:800px;
+	}
+}

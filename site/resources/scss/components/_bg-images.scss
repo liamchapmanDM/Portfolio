@@ -1,0 +1,54 @@
+.bgimg-2, .bgimg-3 {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* Second image (Portfolio) */
+.bgimg-2 {
+	background-image: url("../images/home/laptop.jpg");
+	opacity:0.6;
+	min-height: 600px;
+}
+.parallax-container{
+	position:relative;
+}
+.parallax-middle{
+	position:absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%)
+}
+.parallax-title{
+	color:#FFF;
+	font-size:40px;
+	font-family: 'Noto Serif SC', serif;
+	opacity:1;
+}
+/* Third image (Contact) */
+.bgimg-3 {
+	background-image: url("../images/home/portfolio-liam.jpg");
+	opacity:0.6;
+	min-height: 600px;
+}
+.bg-img1 {
+	display:block;
+}
+
+
+@media (min-width: 48em) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	.bgimg-1 {
+		height:100vh;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}

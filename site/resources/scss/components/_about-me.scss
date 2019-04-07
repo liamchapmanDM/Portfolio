@@ -1,0 +1,27 @@
+.section-top {
+	margin-top:110px;
+}
+
+@media (min-width: 48em) {
+
+  .section-top {
+    margin-top:100px;
+  }
+
+}
+
+
+@media only screen and (min-width: 992px) {
+	.section-top {
+		margin-top:80px;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	.section-top {
+		margin-top:50px;
+		padding-top:50px;
+	}
+}

@@ -1,0 +1,117 @@
+/* Skills Section */
+.grid{
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	justify-content: center;
+	align-items:center;
+}
+.column {
+	background-color: #EBEBEB;
+	margin-left:0px;
+	margin-right:0px;
+}
+.column1 {
+	background-color: #EBEBEB;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	width:100%;
+	border-radius: 10px;
+	margin-bottom:30px;
+	height:600px;
+	flex: 1;
+	padding: 16px;
+}
+.column2 {
+	background-color: #EBEBEB;
+	margin-left:0px;
+	margin-right:0px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 1px 1px 1px 1px;
+	margin-bottom:30px;
+	height:600px;
+	flex: 1;
+	padding: 16px;
+	width:100%;
+}
+.column3 {
+	background-color: #EBEBEB;
+	margin-left:0px;
+	margin-right:0px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	width:100%;
+	border-radius: 10px;
+	height:600px;
+	margin-top:0px;
+	margin-bottom:30px;
+	flex: 1;
+	padding: 16px;
+}
+.section-top2 {
+	margin-top:50px;
+	padding-top:120px;
+	padding-bottom:120px;
+}
+
+.grid p{
+	padding:20px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+	.grid {
+		width:100%;
+		display:flex;
+		flex-direction: row;
+		border-style: solid;
+		border-radius:3px;
+		border-width: 0px;
+		justify-content: center;
+	}
+	.column1 {
+		background-color: #EBEBEB;
+		margin-left:0px;
+		margin-right:0px;
+		border-style: solid;
+		border-width: 1px 1px 1px 1px;
+		width:100%;
+		border-radius:0px;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+		max-width:500px;
+	}
+	.column2 {
+		background-color: #EBEBEB;
+		margin-left:0px;
+		margin-right:0px;
+		border-style: solid;
+		border-radius:0px;
+		border-width: 1px 0px 1px 0px;
+		width:100%;
+		max-width:500px;
+	}
+	.column3 {
+		background-color: #EBEBEB;
+		margin-left:0px;
+		margin-right:0px;
+		border-style: solid;
+		border-width: 1px 1px 1px 1px;
+		width:100%;
+		border-radius:0px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		max-width:500px;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	.section-top2 {
+		margin-top:50px;
+		padding-top:90px;
+	}
+}

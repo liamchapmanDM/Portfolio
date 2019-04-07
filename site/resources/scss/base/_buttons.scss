@@ -1,0 +1,73 @@
+.button-standard {
+	text-decoration:none;
+	text-align:center;
+	background-color: #4c4c4c;
+	color:#FFF;
+	padding:10px;
+	/* font-size:20px;
+	*/
+	border-width:1px;
+	border-color:#000;
+	border-style: solid;
+	margin-right:0px;
+	margin-left:0px;
+}
+.main-button{
+	white-space: nowrap;
+	text-decoration:none;
+	text-align: center;
+	font-family: 'Noto Serif SC', serif;
+}
+.about-button{
+	white-space: nowrap;
+	text-decoration:none;
+	text-align: center;
+	margin-top: 30px;
+	font-family: 'Noto Serif SC', serif;
+	margin-bottom:70px;
+}
+
+a {
+	color: #000;
+}
+
+.plain-link {
+	text-decoration:none;
+	padding:0px;
+}
+
+.linked-a {
+	padding:0px;
+}
+
+
+@media (min-width: 48em) {
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+	.plain-link {
+		text-decoration:none;
+		padding:10px;
+	}
+
+  .linked-a {
+		padding-left:39px;
+	}
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.main-button{
+  position: absolute;
+  bottom:30px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
