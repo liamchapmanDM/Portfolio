@@ -1,5 +1,5 @@
 /* footer */
-.wrapper {
+.wrapper-video {
 	/* min-height: 1000px;
 	*/
 	/* Equal to height of footer */
@@ -8,6 +8,19 @@
 	margin-right:10%;
 	margin-left:10%;
 	margin-top:70px;
+	text-align: center;
+	padding-bottom:30px;
+}
+
+.wrapper {
+	/* min-height: 1000px;
+	*/
+	/* Equal to height of footer */
+	/* But also accounting for potential margin-bottom of last child */
+	margin-bottom: 0px;
+	margin-right:10%;
+	margin-left:10%;
+	// margin-top:70px;
 	text-align: center;
 	padding-bottom:30px;
 }
