@@ -5,7 +5,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	@media (max-width: @iphone-screen) {
+	@media (max-width: 600px) {
 	    background-attachment:scroll;
 	}
 
